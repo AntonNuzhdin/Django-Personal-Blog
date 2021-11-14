@@ -12,7 +12,7 @@ While implementing this project were used:
 - CSS
 - JavaScript
 # How to run the project on you local server
-1) In the bash go to the folder django/app/blogengine and activate virtual environment by those two commands:
+1) In the command line go to the folder django/app/blogengine and activate virtual environment by those two commands:
 
 
                                                                       virtualenv venv
@@ -20,7 +20,7 @@ While implementing this project were used:
  -
                                                                       
                                                                       source venv/bin/activate
-2) Type in the bash:
+2) Type in the command line:
 
 
                                                                       ./manage.py runserver 5000
