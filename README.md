@@ -7,7 +7,7 @@ On this web site you can:
 While implementing this project were used:
 - Python 
 - Django
-- MYSQL
+- sqllite
 - HTML
 - CSS
 - JavaScript
