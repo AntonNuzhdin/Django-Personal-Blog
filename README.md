@@ -15,6 +15,8 @@ While implementing this project were used:
 1) In the bash go to the folder django/app/blogengine and activate virtual environment by those two commands:
 
                                                                       virtualenv venv
+                                                                      
+                                                                      
                                                                       source venv/bin/activate
 2) Type in the bash:
 
