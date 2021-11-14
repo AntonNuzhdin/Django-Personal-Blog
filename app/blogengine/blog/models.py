@@ -16,8 +16,12 @@ class Rost(models.Model):
     body = models.TextField(blank=True, db_index=True)
     date_pub = models.DateTimeField(auto_now_add=True)
     tags = models.ManyToManyField('Tag', blank=True, related_name='posts')
-    img = models.ImageField(null=True, upload_to="images/",
+    img = models.ImageField(null=True, upload_to="static/",
         verbose_name=u'Your Photo')
+
+    def imgName(self):
+        img_name = str(self.img)
+        return img_name[7::]
     def get_absolute_url(self):
         return reverse('post_detail_url', kwargs={'slug':self.slug})
 

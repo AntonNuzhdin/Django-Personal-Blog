@@ -9,6 +9,8 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 # Create your views here.
 from django.core.paginator import Paginator
 from django.db.models import Q
+from blogengine.settings import STATIC_URL
+import os
 def posts_list(request):
     search_query = request.GET.get('search', '')
 
@@ -35,12 +37,14 @@ def posts_list(request):
         next_url = f'?page={page.next_page_number()}'
     else:
         next_url = ''
+    my_picture = os.path.join('media', 'img/LOGO.png')
 
     context = {
         'page_object' : page,
         'is_paginated' : is_paginated,
         'next_url' : next_url,
         'prev_url' : prev_url,
+        'my_picture' : my_picture,
     }
 
     return render(request, 'blog/index.html', context=context)

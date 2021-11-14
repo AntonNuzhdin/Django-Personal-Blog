@@ -1,0 +1,103 @@
+
+/* ENTRANCE TO LMS */
+/* ------------------- */
+.min-b {
+  /* height: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #FAFAFA; */
+}
+
+.min-b button {
+  padding: 5px 10px;
+  background: none;
+  border: none;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.min-b button:after, .min-b button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 1px solid white;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+.min-b button:after {
+  -webkit-transform: translate(3px, 3px);
+          transform: translate(3px, 3px);
+}
+.min-b button:before {
+  -webkit-transform: translate(-3px, -3px);
+          transform: translate(-3px, -3px);
+}
+.min-b button:hover:after, .min-b button:hover:before {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+/*------------------- */
+
+
+
+
+.title{
+  background-color: #ff4c68;
+  color: #fff;
+
+
+}
+a{
+  font-family: 'Montserrat'
+}
+button{
+  font-family: "Ubuntu";
+
+}
+h6, h1{
+  font-family: 'Montserrat';
+  color: white;
+
+}
+
+
+
+.intro{
+    background-color: #dce8ba;
+}
+
+
+
+.inst-img, .vk-img{
+  margin-top: 10%;
+  width: 50px;
+  height: 50px;
+  margin-right: 5%;
+}
+.fb-img{
+  margin-top: 10%;
+  width: 50px;
+  height: 50px;
+}
+.nav-link{
+  margin-right: 10px;
+
+
+}
+.logo{
+  width: 300px;
+  height: 413px;
+}
+.footer{
+  background: black;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}

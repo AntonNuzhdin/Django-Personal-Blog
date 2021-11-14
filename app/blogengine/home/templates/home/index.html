@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{% static 'css/home.css'%}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <title>Welcome - to - 1502</title>
+</head>
+<style media="screen">
+@media (min-width: 800px) {
+
+#welcome{
+  padding: 2% 10%;
+
+  background: url("{% static "lyceum.jpeg"%}") no-repeat;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+  background-position: center;
+  background-size: cover;
+  }
+}
+</style>
+
+<body>
+  <section class="title">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#"><h4>Nuzhdin A.</h4></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleDemo2" aria-controls="navbarToggleDemo2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarToggleDemo2">
+
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'posts_list_url' %}">-->My blog page</a>
+          </li>
+          <li class="nav-item">
+
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section class="intro">
+    <div class="row">
+        <div id="welcome" class="col-lg-12">
+          <center>
+          <img class="logo" src="{%static "logo1502.png"%}" alt="iphone-mockup">
+          <h1 class="lyceum-name">Welcome to the blog site</h1>
+        <div class="contacts">
+
+          <a href="https://www.instagram.com/anton_nuzhdinn/"><img class="inst-img"  src="{%static "inst.svg"%}" alt="iphone-mockup"></a>
+          <a href="https://vk.com/a_nuzhdin"><img class="vk-img" src="{%static "vk.png"%}" alt="iphone-mockup"></a>
+          <a href="https://web.facebook.com/profile.php?id=100009515071954"><img class="fb-img" src="{%static "fb.svg"%}" alt="iphone-mockup"></a>
+        </center>
+
+
+        </div>
+        </div>
+
+    </div>
+  </section>
+
+
+  <section class="footer">
+    <div class="footer">
+
+
+    <h5>2020 © Anton Nuzhdin</h5>
+    <small><br>If you have any qiestions:
+    anthonnuzhdin@yandex.ru <br></small>
+      </div>
+  </section>
+
+<script type="text/javascript">
+  var colorsNav = ["#f8b195", "#f67280", "#c06c84", "#f46060", "#6c567b"];
+
+// var title = document.querySelector('.title');
+    $('.title').mouseenter(function(){
+      var rand = colorsNav[Math.floor(Math.random() * colorsNav.length)];
+        $(this).css('background', rand);
+  });
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</script>
+</body>
+
+</html>
