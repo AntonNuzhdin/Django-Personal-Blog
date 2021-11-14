@@ -14,9 +14,10 @@ While implementing this project were used:
 # How to run the project on you local server
 1) In the bash go to the folder django/app/blogengine and activate virtual environment by those two commands:
 
+
                                                                       virtualenv venv
                                                                       
- --
+ -
                                                                       
                                                                       source venv/bin/activate
 2) Type in the bash:
