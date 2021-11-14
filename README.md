@@ -17,8 +17,7 @@ While implementing this project were used:
 
                                                                       virtualenv venv
                                                                       
- 
- 
+ -
                                                                       
                                                                       source venv/bin/activate
 2) Type in the command line:
