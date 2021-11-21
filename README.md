@@ -1,8 +1,6 @@
-# Personal-Blog-on-Django
-Web application for blogging
+# School-news-website
 On this web site you can:
-- Act as an author and write your own posts, attach files and formatted text to them
-- Read other bloggers
+- Read school news and keep abreast of the latest events
 # Description:
 While implementing this project were used:
 - Python 
@@ -25,4 +23,4 @@ While implementing this project were used:
 
                                         ./manage.py runserver 5000
 5) after that you have to go to the browser and follow that link: http://127.0.0.1:5000/
-6) Welcome to the site! Click the button "my personal blog" in the upper-right corner and see all the instructions in the first post 
+6) Welcome to the site! Click the button "News" in the upper-right corner and see all the instructions in the first post 
