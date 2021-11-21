@@ -1,4 +1,4 @@
-# Django-Personal-Blog
+# Django-News-Chanel
 On this web site you can:
 - Read news and keep abreast of the latest events
 - Write your own posts 
