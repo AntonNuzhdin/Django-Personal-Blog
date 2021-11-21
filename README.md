@@ -1,6 +1,7 @@
-# School-news-website
+# Django-Personal-Blog
 On this web site you can:
-- Read school news and keep abreast of the latest events
+- Read news and keep abreast of the latest events
+- Write your own posts 
 # Description:
 While implementing this project were used:
 - Python 
@@ -23,4 +24,4 @@ While implementing this project were used:
 
                                         ./manage.py runserver 5000
 5) after that you have to go to the browser and follow that link: http://127.0.0.1:5000/
-6) Welcome to the site! Click the button "News" in the upper-right corner and see all the instructions in the first post 
+6) Welcome to the site! Click the button "My blog page" in the upper-right corner and see all the instructions in the first post 
